@@ -47,13 +47,13 @@ def get_dataCSV(filename, indexCol = True):
 	else:
 		df = pd.read_csv(filename)
 		return df
-dfSharpe = get_dataCSV('C:/Users/18479/Documents/Interview Projects/SharpeRatios_1.csv')
-dfAlpha = get_dataCSV('C:/Users/18479/Documents/Interview Projects/AlphaOfFunds.csv')
-dfCumulRet_Sharpe = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Cumulative Returns Sharpe.csv')
-dfCumulRet_Alpha = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Cumulative Returns Alpha.csv')
-dfSharpeYearsandWeights =  get_dataCSV('C:/Users/18479/Documents/Interview Projects/Sharpe Weights and Accounts.csv')
-dfAlphaYearsandWeights = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Alpha Weights and Accounts.csv')
-dfFuturePortfolio = get_dataCSV('C:/Users/18479/Documents/Interview Projects/Combined Future Alpha Sharpe Portfolio.csv', False)
+dfSharpe = get_dataCSV('Interview-Projects/Interview Projects/SharpeRatios_1.csv')
+dfAlpha = get_dataCSV('Interview-Projects/Interview Projects/AlphaOfFunds.csv')
+dfCumulRet_Sharpe = get_dataCSV('Interview-Projects/Interview Projects/Cumulative Returns Sharpe.csv')
+dfCumulRet_Alpha = get_dataCSV('Interview-Projects/Interview Projects/Cumulative Returns Alpha.csv')
+dfSharpeYearsandWeights =  get_dataCSV('Interview-Projects/Interview Projects/Sharpe Weights and Accounts.csv')
+dfAlphaYearsandWeights = get_dataCSV('Interview-Projects/Interview Projects/Alpha Weights and Accounts.csv')
+dfFuturePortfolio = get_dataCSV('Interview-Projects/Interview Projects/Combined Future Alpha Sharpe Portfolio.csv', False)
 
 #df = pd.read_excel (r'C:\Users\18479\Downloads\Hedge Fund Data  - Trailing 5-Year Monthly Returns.xlsx')
 df = get_data(r'C:\Users\18479\Downloads\Hedge Fund Data  - Trailing 5-Year Monthly Returns.xlsx')
